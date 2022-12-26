@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoadingViewController" customModule="submission_ios_pemula_dicoding" customModuleProvider="target">
+            <connections>
+                <outlet property="containerIndicator" destination="i5M-Pr-FkT" id="FWW-9X-haF"/>
+                <outlet property="loadingIndicator" destination="5CY-aK-zB5" id="FfL-he-X3H"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gyp-OP-Jpv">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <subviews>
+                        <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="5CY-aK-zB5">
+                            <rect key="frame" x="177" y="418" width="60" height="60"/>
+                            <color key="tintColor" red="0.23137254900000001" green="0.53333333329999999" blue="0.32549019610000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="5CY-aK-zB5" secondAttribute="height" multiplier="1:1" id="JgD-WW-TL5"/>
+                                <constraint firstAttribute="width" constant="60" id="KOg-Yo-LeU"/>
+                                <constraint firstAttribute="height" constant="60" id="ycN-r2-DdS"/>
+                            </constraints>
+                        </activityIndicatorView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.20177980132450332" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="5CY-aK-zB5" firstAttribute="centerX" secondItem="Gyp-OP-Jpv" secondAttribute="centerX" id="M8Z-X8-Pjx"/>
+                        <constraint firstItem="5CY-aK-zB5" firstAttribute="centerY" secondItem="Gyp-OP-Jpv" secondAttribute="centerY" id="kOr-Cx-O90"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Gyp-OP-Jpv" secondAttribute="bottom" id="01B-vu-1kx"/>
+                <constraint firstItem="Gyp-OP-Jpv" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="b2O-Ae-9j3"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Gyp-OP-Jpv" secondAttribute="trailing" id="gvQ-O4-9tZ"/>
+                <constraint firstItem="Gyp-OP-Jpv" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="q7d-Y1-ypa"/>
+            </constraints>
+            <point key="canvasLocation" x="132" y="60"/>
+        </view>
+    </objects>
+</document>

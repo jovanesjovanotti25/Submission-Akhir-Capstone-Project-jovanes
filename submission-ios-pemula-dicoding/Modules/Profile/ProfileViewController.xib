@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ProfileViewController" customModule="submission_ios_pemula_dicoding" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profilePicture" translatesAutoresizingMaskIntoConstraints="NO" id="V1g-v7-V2O">
+                    <rect key="frame" x="107" y="144" width="200" height="200"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="V1g-v7-V2O" secondAttribute="height" multiplier="1:1" id="GQM-g9-zNq"/>
+                        <constraint firstAttribute="height" constant="200" id="zaK-fR-9O0"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="100"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                            <integer key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                            <color key="value" systemColor="systemGroupedBackgroundColor"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lsn-nt-4hm">
+                    <rect key="frame" x="15" y="374" width="384" height="140"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="bjV-Ud-VP0">
+                            <rect key="frame" x="20" y="21.5" width="40" height="37"/>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="bjV-Ud-VP0" secondAttribute="height" multiplier="1:1" id="5ZX-Oa-JwC"/>
+                                <constraint firstAttribute="height" constant="40" id="CTo-07-Yoz"/>
+                                <constraint firstAttribute="width" constant="40" id="ZLq-S3-SYw"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jovanes Jovanotti" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nvd-p9-eWW">
+                            <rect key="frame" x="87" y="24" width="210" height="32.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="envelope.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="hb5-82-uT2">
+                            <rect key="frame" x="20" y="81.5" width="40" height="36.5"/>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="40" id="Z1O-Lf-DL7"/>
+                                <constraint firstAttribute="height" constant="40" id="cc1-4j-ZDN"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="JovanesJovanotti@gmail.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uB7-0h-PKa">
+                            <rect key="frame" x="87" y="89.5" width="226" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="Nvd-p9-eWW" firstAttribute="leading" secondItem="bjV-Ud-VP0" secondAttribute="trailing" constant="27" id="8Mq-Dg-T7i"/>
+                        <constraint firstItem="bjV-Ud-VP0" firstAttribute="leading" secondItem="lsn-nt-4hm" secondAttribute="leading" constant="20" id="CTe-Wh-cgb"/>
+                        <constraint firstItem="uB7-0h-PKa" firstAttribute="leading" secondItem="Nvd-p9-eWW" secondAttribute="leading" id="KpO-az-gxr"/>
+                        <constraint firstItem="uB7-0h-PKa" firstAttribute="centerY" secondItem="hb5-82-uT2" secondAttribute="centerY" id="OuO-m4-mix"/>
+                        <constraint firstItem="bjV-Ud-VP0" firstAttribute="top" secondItem="lsn-nt-4hm" secondAttribute="top" constant="20" id="dr2-mx-ur9"/>
+                        <constraint firstItem="Nvd-p9-eWW" firstAttribute="centerY" secondItem="bjV-Ud-VP0" secondAttribute="centerY" id="fi5-q6-9mn"/>
+                        <constraint firstItem="hb5-82-uT2" firstAttribute="leading" secondItem="bjV-Ud-VP0" secondAttribute="leading" id="jkM-iW-Bx3"/>
+                        <constraint firstItem="hb5-82-uT2" firstAttribute="top" secondItem="bjV-Ud-VP0" secondAttribute="bottom" constant="20" id="q7O-eH-3h3"/>
+                        <constraint firstAttribute="bottom" secondItem="hb5-82-uT2" secondAttribute="bottom" constant="20" id="yQo-Us-nMe"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="8"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="lsn-nt-4hm" secondAttribute="trailing" constant="15" id="37U-fQ-GCu"/>
+                <constraint firstItem="V1g-v7-V2O" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="5Td-Uy-v6o"/>
+                <constraint firstItem="lsn-nt-4hm" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="15" id="YHv-YQ-reg"/>
+                <constraint firstItem="lsn-nt-4hm" firstAttribute="top" secondItem="V1g-v7-V2O" secondAttribute="bottom" constant="30" id="ZBD-bG-tog"/>
+                <constraint firstItem="V1g-v7-V2O" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="100" id="sta-Bw-az5"/>
+            </constraints>
+            <point key="canvasLocation" x="131.8840579710145" y="59.598214285714285"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="envelope.fill" catalog="system" width="128" height="93"/>
+        <image name="person.fill" catalog="system" width="128" height="120"/>
+        <image name="profilePicture" width="500" height="500"/>
+        <systemColor name="systemGroupedBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
