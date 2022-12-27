@@ -1,0 +1,6 @@
+framework module Pods_submission_ios_pemula_dicoding {
+  umbrella header "Pods-submission-ios-pemula-dicoding-umbrella.h"
+
+  export *
+  module * { export * }
+}
