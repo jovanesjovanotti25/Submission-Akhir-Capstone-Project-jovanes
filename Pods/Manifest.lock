@@ -11,7 +11,7 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire
-  - Kingfisher (~> 4.6.0)
+  - Kingfisher
   - RxCocoa
   - RxSwift
   - SwiftLint
@@ -33,6 +33,6 @@ SPEC CHECKSUMS:
   RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
   SwiftLint: 6b0cf1f4d619808dbc16e4fab064ce6fc79f090b
 
-PODFILE CHECKSUM: 645a75b00caabf3ece991fcf52e0b5e7dc95c4b5
+PODFILE CHECKSUM: 6afbe8cb68ec5649244a6b2f2ad19bfaf52ee458
 
 COCOAPODS: 1.11.2
