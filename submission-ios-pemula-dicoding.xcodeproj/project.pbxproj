@@ -53,6 +53,9 @@
 		E0C5258A295AC59E0005AE7F /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = E0C52589295AC59E0005AE7F /* .travis.yml */; };
 		E0C525A0295AF6960005AE7F /* submissionIosPemulaDicodingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C5259F295AF6960005AE7F /* submissionIosPemulaDicodingTests.swift */; };
 		E0DD74B2295B0CE000031BCB /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = E0DD74B1295B0CE000031BCB /* Kingfisher */; };
+		E0DD74B8295B221400031BCB /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = E0DD74B7295B221400031BCB /* Alamofire */; };
+		E0DD74BB295B223900031BCB /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = E0DD74BA295B223900031BCB /* RxCocoa */; };
+		E0DD74BD295B223900031BCB /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E0DD74BC295B223900031BCB /* RxSwift */; };
 		E0EC062F29411172000B6268 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = E0EC062E29411172000B6268 /* .swiftlint.yml */; };
 		E0F3CDEC28DB373C00325A90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F3CDEB28DB373C00325A90 /* AppDelegate.swift */; };
 		E0F3CDF028DB373C00325A90 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F3CDEF28DB373C00325A90 /* ViewController.swift */; };
@@ -170,7 +173,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0DD74B8295B221400031BCB /* Alamofire in Frameworks */,
 				E0DD74B2295B0CE000031BCB /* Kingfisher in Frameworks */,
+				E0DD74BD295B223900031BCB /* RxSwift in Frameworks */,
+				E0DD74BB295B223900031BCB /* RxCocoa in Frameworks */,
 				0741E90C6D5D6FE079D32C57 /* Pods_submission_ios_pemula_dicoding.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -555,7 +561,6 @@
 				E0C52599295AF6960005AE7F /* Sources */,
 				E0C5259A295AF6960005AE7F /* Frameworks */,
 				E0C5259B295AF6960005AE7F /* Resources */,
-				B53240E15595DD7B2B01DF11 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -575,7 +580,6 @@
 				E0F3CDE428DB373C00325A90 /* Sources */,
 				E0F3CDE528DB373C00325A90 /* Frameworks */,
 				E0F3CDE628DB373C00325A90 /* Resources */,
-				42290B9A8D7DC75B205EB4C2 /* [CP] Embed Pods Frameworks */,
 				E0EC062D29411043000B6268 /* ShellScript */,
 			);
 			buildRules = (
@@ -585,6 +589,9 @@
 			name = "submission-ios-pemula-dicoding";
 			packageProductDependencies = (
 				E0DD74B1295B0CE000031BCB /* Kingfisher */,
+				E0DD74B7295B221400031BCB /* Alamofire */,
+				E0DD74BA295B223900031BCB /* RxCocoa */,
+				E0DD74BC295B223900031BCB /* RxSwift */,
 			);
 			productName = "submission-ios-pemula-dicoding";
 			productReference = E0F3CDE828DB373C00325A90 /* submission-ios-pemula-dicoding.app */;
@@ -620,6 +627,8 @@
 			mainGroup = E0F3CDDF28DB373C00325A90;
 			packageReferences = (
 				E0DD74B0295B0CE000031BCB /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				E0DD74B6295B221400031BCB /* XCRemoteSwiftPackageReference "Alamofire" */,
+				E0DD74B9295B223900031BCB /* XCRemoteSwiftPackageReference "RxSwift" */,
 			);
 			productRefGroup = E0F3CDE928DB373C00325A90 /* Products */;
 			projectDirPath = "";
@@ -663,40 +672,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		42290B9A8D7DC75B205EB4C2 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-submission-ios-pemula-dicoding/Pods-submission-ios-pemula-dicoding-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-submission-ios-pemula-dicoding/Pods-submission-ios-pemula-dicoding-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-submission-ios-pemula-dicoding/Pods-submission-ios-pemula-dicoding-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B53240E15595DD7B2B01DF11 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-submissionIosPemulaDicodingTests/Pods-submissionIosPemulaDicodingTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-submissionIosPemulaDicodingTests/Pods-submissionIosPemulaDicodingTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-submissionIosPemulaDicodingTests/Pods-submissionIosPemulaDicodingTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		C8D2A1BFEEF3D4BA1A053345 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1102,6 +1077,22 @@
 				minimumVersion = 5.0.0;
 			};
 		};
+		E0DD74B6295B221400031BCB /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		E0DD74B9295B223900031BCB /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -1109,6 +1100,21 @@
 			isa = XCSwiftPackageProductDependency;
 			package = E0DD74B0295B0CE000031BCB /* XCRemoteSwiftPackageReference "Kingfisher" */;
 			productName = Kingfisher;
+		};
+		E0DD74B7295B221400031BCB /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E0DD74B6295B221400031BCB /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		E0DD74BA295B223900031BCB /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E0DD74B9295B223900031BCB /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		E0DD74BC295B223900031BCB /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E0DD74B9295B223900031BCB /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
 

@@ -6,9 +6,6 @@ target 'submission-ios-pemula-dicoding' do
   use_frameworks!
 
   # Pods for submission-ios-pemula-dicoding
-  pod 'RxSwift'
-  pod 'RxCocoa'
-  pod 'Alamofire'
   pod 'SwiftLint'
 end
 
@@ -17,8 +14,5 @@ target 'submissionIosPemulaDicodingTests' do
   use_frameworks!
 
   # Pods for submissionIosPemulaDicodingTests
-  pod 'RxSwift'
-  pod 'RxCocoa'
-  pod 'Alamofire'
   pod 'SwiftLint'
 end
