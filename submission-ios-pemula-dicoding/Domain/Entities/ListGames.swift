@@ -21,7 +21,7 @@ struct ListGames: Codable {
     var metacritic: Int? = 0
     var playtime: Int?
     var genres: [Genre]?
-    var short_screenshots: [shortScreenshots]?
+    var short_screenshots: [ShortScreenshots]?
 }
 
 struct Genre: Codable {
@@ -29,7 +29,7 @@ struct Genre: Codable {
     var name: String?
 }
 
-struct shortScreenshots: Codable {
+struct ShortScreenshots: Codable {
     var id: Int?
     var image: String?
 }
