@@ -3,3 +3,9 @@ disabled_rules: # rule identifiers to exclude from running
 - force_cast
 - force_unwrapping
 - force_try
+
+type_name:
+- allowed_symbols: "_"
+
+identifier_name:
+- allowed_symbols: "_"
