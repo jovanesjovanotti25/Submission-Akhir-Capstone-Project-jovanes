@@ -32,9 +32,19 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E0F3CDFD28DB373D00325A90"
+               BlueprintIdentifier = "E0C5258F295AF64A0005AE7F"
                BuildableName = "submission-ios-pemula-dicodingTests.xctest"
                BlueprintName = "submission-ios-pemula-dicodingTests"
+               ReferencedContainer = "container:submission-ios-pemula-dicoding.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "E0C5259C295AF6960005AE7F"
+               BuildableName = "submissionIosPemulaDicodingTests.xctest"
+               BlueprintName = "submissionIosPemulaDicodingTests"
                ReferencedContainer = "container:submission-ios-pemula-dicoding.xcodeproj">
             </BuildableReference>
          </TestableReference>
