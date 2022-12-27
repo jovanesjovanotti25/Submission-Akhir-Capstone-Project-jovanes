@@ -5,9 +5,9 @@ xcode_scheme: submission-ios-pemula-dicoding
 xcode_destination: platform=iOS Simulator,OS=15.5,name=iPhone 13
 podfile: Podfile
 before_install:
-  - arch -x86_64 gem install cocoapods
-  - arch -x86_64 pod install --repo-update
-script:
-  - set -o pipefail && xcodebuild -version
-  - set -o pipefail && xcodebuild -showsdks
-  - set -o pipefail && xcodebuild -project submission-ios-pemula-dicoding.xcodeproj -scheme submission-ios-pemula-dicoding -configuration Debug -destination "platform=iOS Simulator,OS=15.5,name=iPhone 13" ONLY_ACTIVE_ARCH=YES
+#  - arch -x86_64 gem install cocoapods
+  - arch -x86_64 pod install
+#script:
+#  - set -o pipefail && xcodebuild -version
+#  - set -o pipefail && xcodebuild -showsdks
+#  - set -o pipefail && xcodebuild -project submission-ios-pemula-dicoding.xcodeproj -scheme submission-ios-pemula-dicoding -configuration Debug -destination "platform=iOS Simulator,OS=15.5,name=iPhone 13" ONLY_ACTIVE_ARCH=YES
