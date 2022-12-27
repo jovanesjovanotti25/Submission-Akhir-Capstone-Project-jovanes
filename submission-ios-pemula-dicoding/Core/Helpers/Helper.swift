@@ -41,8 +41,6 @@ class Helper {
             "app_version":appVersion,
             "device_id": deviceId
         ]
-        print("basicInfo \(basicInfo)")
-
         return basicInfo
     }
     
@@ -50,23 +48,17 @@ class Helper {
         let nsObject: AnyObject? = Bundle.main.infoDictionary!["CFBundleShortVersionString"] as AnyObject?
         return nsObject as! String
     }
-    
 }
 
 extension Helper {
     class func basicInfo() -> String? {
         let basicInfo = getBasicInfo()
-        
         do {
             let jsonData = try! JSONSerialization.data(withJSONObject: basicInfo, options: [])
             if let string = String(data: jsonData, encoding: String.Encoding.utf8) {
-                print("basicInfo string\(string)")
                 return string
             }
-        } catch {
-            print(error)
         }
-        
         return ""
     }
 }

@@ -7,7 +7,6 @@
 
 import Foundation
 
-
 final class Injection: NSObject {
  
     private func provideDataSource() -> ListGamesDataSourceProtocol {
@@ -52,5 +51,4 @@ final class Injection: NSObject {
         let favoriteGamesRepository = provideRepositoryFavorite()
         return FavoriteGamesInteractor(repository: favoriteGamesRepository)
     }
- 
 }

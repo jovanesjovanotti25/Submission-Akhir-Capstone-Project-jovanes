@@ -44,13 +44,9 @@ class FavoriteGameStorage: FavoriteGameStorageProtocol {
     
     func setFavoriteGames(dataCoreGames: DataCoreGames) -> Observable<Bool> {
         return Observable<Bool>.create { observer in
-            
-            
-            print("setFavoriteGames")
             let appDelegate = UIApplication.shared.delegate as! AppDelegate
             let manageContext = appDelegate.persistentContainer.viewContext
             let entity = NSEntityDescription.entity(forEntityName: "FavoriteGames", in: manageContext)
-            
             let insert = NSManagedObject(entity: entity!, insertInto: manageContext)
             insert.setValue(dataCoreGames.id, forKey: "favoriteGame_Id")
             insert.setValue(dataCoreGames.name, forKey: "favoriteGame_Name")
@@ -58,11 +54,7 @@ class FavoriteGameStorage: FavoriteGameStorageProtocol {
             insert.setValue(dataCoreGames.background_image, forKey: "favoriteGame_BackgroundImage")
             insert.setValue(dataCoreGames.rating, forKey: "favoriteGame_Rating")
             insert.setValue(dataCoreGames.playtime, forKey: "favoriteGame_Playtime")
-
-            print("insert \(insert)")
-            
             UserDefaults.standard.setValue(dataCoreGames.id, forKey: "LISTGAME_ID_SAVED")
-            
             do {
                 try manageContext.save()
                 observer.onNext(true)
@@ -70,24 +62,16 @@ class FavoriteGameStorage: FavoriteGameStorageProtocol {
             } catch let error {
                 observer.onError(error)
             }
-            
-         
             return Disposables.create()
         }
-        
-        
     }
-
     
     func deleteFavoriteGames(dataCoreGames: DataCoreGames) -> Observable<Bool> {
         return Observable<Bool>.create { observer in
-            
-            
             let appDelegate = UIApplication.shared.delegate as! AppDelegate
             let manageContext = appDelegate.persistentContainer.viewContext
             let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: "FavoriteGames")
             fetchRequest.predicate = NSPredicate(format: "favoriteGame_Id = %id", dataCoreGames.id!)
-            
             do {
                 let fetch = try manageContext.fetch(fetchRequest)
                 let delete = fetch[0] as! NSManagedObject
@@ -99,11 +83,7 @@ class FavoriteGameStorage: FavoriteGameStorageProtocol {
             } catch let error {
                 observer.onError(error)
             }
-            
-            
             return Disposables.create()
         }
     }
-    
-    
 }

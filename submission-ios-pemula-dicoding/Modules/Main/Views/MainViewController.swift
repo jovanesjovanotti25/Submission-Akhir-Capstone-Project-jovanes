@@ -153,9 +153,6 @@ extension MainViewController: UITableViewDelegate, UITableViewDataSource{
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        print("filteredData[indexPath.row].id \(filteredData[indexPath.row].id)")
-        self.presentDetailGame(detailGameId: filteredData[indexPath.row].id!)
         tableView.deselectRow(at: indexPath, animated: true)
-
     }
 }
