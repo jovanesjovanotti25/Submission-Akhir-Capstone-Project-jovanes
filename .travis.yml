@@ -11,4 +11,4 @@ script:
   - set -o pipefail && xcodebuild -version
   - set -o pipefail && xcodebuild -showsdks
   - set -o pipefail && xcodebuild -project submission-ios-pemula-dicoding.xcodeproj -scheme submission-ios-pemula-dicoding -configuration Debug -destination "platform=iOS Simulator,OS=15.5,name=iPhone 13" ONLY_ACTIVE_ARCH=YES
-  - set -o pipefail && xcodebuild test -enableCodeCoverage YES -project submission-ios-pemula-dicoding.xcodeproj -scheme submission-ios-pemula-dicoding ONLY_ACTIVE_ARCH=YES
+  - set -o pipefail && xcodebuild test -enableCodeCoverage YES -project submission-ios-pemula-dicoding.xcodeproj -scheme submission-ios-pemula-dicoding -destination "platform=iOS Simulator,OS=15.5,name=iPhone 13" ONLY_ACTIVE_ARCH=YES
