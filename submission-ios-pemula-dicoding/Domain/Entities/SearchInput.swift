@@ -9,4 +9,5 @@ import UIKit
 
 struct SearchInput {
     var title: String?
+    
 }
