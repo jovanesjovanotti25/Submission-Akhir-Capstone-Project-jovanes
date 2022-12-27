@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import RxCocoa
 import RxSwift
 
 class MainViewModel: NSObject {
