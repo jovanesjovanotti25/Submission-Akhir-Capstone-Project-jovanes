@@ -3,3 +3,6 @@ osx_image: xcode13.4
 xcode_workspace: submission-ios-pemula-dicoding.xcworkspace
 xcode_destination: platform=iOS Simulator,OS=15.5,name=iPhone 13
 script: xcodebuild clean build test -project submission-ios-pemula-dicoding.xcworkspace  -scheme "submission-ios-pemula-dicoding" CODE_SIGNING_REQUIRED=NO
+before_install:
+  - gem install cocoapods --pre
+  - pod install --repo-update
