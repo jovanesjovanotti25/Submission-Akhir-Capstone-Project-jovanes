@@ -6,8 +6,23 @@
 	<dict>
 		<key>submission-ios-pemula-dicoding.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>14</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>E0F3CDE728DB373C00325A90</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E0F3CDFD28DB373D00325A90</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
