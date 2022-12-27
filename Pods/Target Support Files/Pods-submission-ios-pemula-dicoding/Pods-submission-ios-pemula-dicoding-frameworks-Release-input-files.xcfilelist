@@ -1,6 +1,6 @@
 ${PODS_ROOT}/Target Support Files/Pods-submission-ios-pemula-dicoding/Pods-submission-ios-pemula-dicoding-frameworks.sh
-${BUILT_PRODUCTS_DIR}/Alamofire-iOS13.0/Alamofire.framework
-${BUILT_PRODUCTS_DIR}/Kingfisher-iOS13.0/Kingfisher.framework
-${BUILT_PRODUCTS_DIR}/RxCocoa-iOS13.0/RxCocoa.framework
-${BUILT_PRODUCTS_DIR}/RxRelay-iOS13.0/RxRelay.framework
-${BUILT_PRODUCTS_DIR}/RxSwift-iOS13.0/RxSwift.framework
+${BUILT_PRODUCTS_DIR}/Alamofire-iOS11.0/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/Kingfisher-iOS11.0/Kingfisher.framework
+${BUILT_PRODUCTS_DIR}/RxCocoa-iOS11.0/RxCocoa.framework
+${BUILT_PRODUCTS_DIR}/RxRelay-iOS11.0/RxRelay.framework
+${BUILT_PRODUCTS_DIR}/RxSwift-iOS11.0/RxSwift.framework

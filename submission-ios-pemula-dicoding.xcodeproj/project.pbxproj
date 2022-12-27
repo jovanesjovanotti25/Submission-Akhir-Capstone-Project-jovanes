@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0741E90C6D5D6FE079D32C57 /* Pods_submission_ios_pemula_dicoding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 105C82C6EF72C96565448483 /* Pods_submission_ios_pemula_dicoding.framework */; };
+		560752A9B2C3BCA0B957DA41 /* Pods_submissionIosPemulaDicodingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8373D06FBE65EF4E3EE3D1D /* Pods_submissionIosPemulaDicodingTests.framework */; };
 		E010056628F382190087B0D0 /* GameSubmission.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E010056428F382190087B0D0 /* GameSubmission.xcdatamodeld */; };
 		E010056B28F3EB060087B0D0 /* FavoriteGameStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E010056A28F3EB060087B0D0 /* FavoriteGameStorage.swift */; };
 		E010057128F3FBBE0087B0D0 /* ListFavoriteGamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E010056F28F3FBBE0087B0D0 /* ListFavoriteGamesViewController.swift */; };
@@ -82,11 +83,14 @@
 
 /* Begin PBXFileReference section */
 		105C82C6EF72C96565448483 /* Pods_submission_ios_pemula_dicoding.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_submission_ios_pemula_dicoding.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1906E74809467B998C1A6227 /* Pods-submissionIosPemulaDicodingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-submissionIosPemulaDicodingTests.release.xcconfig"; path = "Target Support Files/Pods-submissionIosPemulaDicodingTests/Pods-submissionIosPemulaDicodingTests.release.xcconfig"; sourceTree = "<group>"; };
 		254B0F7CB0C54166B09A5BEA /* Pods_submission_ios_pemula_dicodingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_submission_ios_pemula_dicodingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4190A063F44D3CBD7E98BD68 /* Pods-submission-ios-pemula-dicodingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-submission-ios-pemula-dicodingTests.debug.xcconfig"; path = "Target Support Files/Pods-submission-ios-pemula-dicodingTests/Pods-submission-ios-pemula-dicodingTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5D0D36ED09E720164C8AD933 /* Pods-submission-ios-pemula-dicodingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-submission-ios-pemula-dicodingTests.release.xcconfig"; path = "Target Support Files/Pods-submission-ios-pemula-dicodingTests/Pods-submission-ios-pemula-dicodingTests.release.xcconfig"; sourceTree = "<group>"; };
+		5FFE8052CD2388C8C97D47B7 /* Pods-submissionIosPemulaDicodingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-submissionIosPemulaDicodingTests.debug.xcconfig"; path = "Target Support Files/Pods-submissionIosPemulaDicodingTests/Pods-submissionIosPemulaDicodingTests.debug.xcconfig"; sourceTree = "<group>"; };
 		AA85830982DD759149F6F532 /* Pods-submission-ios-pemula-dicoding.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-submission-ios-pemula-dicoding.release.xcconfig"; path = "Target Support Files/Pods-submission-ios-pemula-dicoding/Pods-submission-ios-pemula-dicoding.release.xcconfig"; sourceTree = "<group>"; };
 		B5427F84FA2C1EFAFB34B158 /* Pods-submission-ios-pemula-dicoding.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-submission-ios-pemula-dicoding.debug.xcconfig"; path = "Target Support Files/Pods-submission-ios-pemula-dicoding/Pods-submission-ios-pemula-dicoding.debug.xcconfig"; sourceTree = "<group>"; };
+		B8373D06FBE65EF4E3EE3D1D /* Pods_submissionIosPemulaDicodingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_submissionIosPemulaDicodingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E010056528F382190087B0D0 /* GameSubmission.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GameSubmission.xcdatamodel; sourceTree = "<group>"; };
 		E010056A28F3EB060087B0D0 /* FavoriteGameStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteGameStorage.swift; sourceTree = "<group>"; };
 		E010056F28F3FBBE0087B0D0 /* ListFavoriteGamesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListFavoriteGamesViewController.swift; sourceTree = "<group>"; };
@@ -157,6 +161,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				560752A9B2C3BCA0B957DA41 /* Pods_submissionIosPemulaDicodingTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +181,7 @@
 			children = (
 				105C82C6EF72C96565448483 /* Pods_submission_ios_pemula_dicoding.framework */,
 				254B0F7CB0C54166B09A5BEA /* Pods_submission_ios_pemula_dicodingTests.framework */,
+				B8373D06FBE65EF4E3EE3D1D /* Pods_submissionIosPemulaDicodingTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -187,6 +193,8 @@
 				AA85830982DD759149F6F532 /* Pods-submission-ios-pemula-dicoding.release.xcconfig */,
 				4190A063F44D3CBD7E98BD68 /* Pods-submission-ios-pemula-dicodingTests.debug.xcconfig */,
 				5D0D36ED09E720164C8AD933 /* Pods-submission-ios-pemula-dicodingTests.release.xcconfig */,
+				5FFE8052CD2388C8C97D47B7 /* Pods-submissionIosPemulaDicodingTests.debug.xcconfig */,
+				1906E74809467B998C1A6227 /* Pods-submissionIosPemulaDicodingTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -541,9 +549,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E0C525A3295AF6960005AE7F /* Build configuration list for PBXNativeTarget "submissionIosPemulaDicodingTests" */;
 			buildPhases = (
+				C8D2A1BFEEF3D4BA1A053345 /* [CP] Check Pods Manifest.lock */,
 				E0C52599295AF6960005AE7F /* Sources */,
 				E0C5259A295AF6960005AE7F /* Frameworks */,
 				E0C5259B295AF6960005AE7F /* Resources */,
+				B53240E15595DD7B2B01DF11 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -660,6 +670,45 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-submission-ios-pemula-dicoding/Pods-submission-ios-pemula-dicoding-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B53240E15595DD7B2B01DF11 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-submissionIosPemulaDicodingTests/Pods-submissionIosPemulaDicodingTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-submissionIosPemulaDicodingTests/Pods-submissionIosPemulaDicodingTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-submissionIosPemulaDicodingTests/Pods-submissionIosPemulaDicodingTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8D2A1BFEEF3D4BA1A053345 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-submissionIosPemulaDicodingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E0EC062D29411043000B6268 /* ShellScript */ = {
@@ -796,6 +845,7 @@
 /* Begin XCBuildConfiguration section */
 		E0C525A4295AF6960005AE7F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FFE8052CD2388C8C97D47B7 /* Pods-submissionIosPemulaDicodingTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -813,6 +863,7 @@
 		};
 		E0C525A5295AF6960005AE7F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1906E74809467B998C1A6227 /* Pods-submissionIosPemulaDicodingTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;

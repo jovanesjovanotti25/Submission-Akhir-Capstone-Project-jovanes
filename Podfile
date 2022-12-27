@@ -13,11 +13,11 @@ target 'submission-ios-pemula-dicoding' do
   pod ‘Kingfisher’, ‘~> 4.6.0’
 end
 
-target 'submission-ios-pemula-dicodingTests' do
+target 'submissionIosPemulaDicodingTests' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  # Pods for submission-ios-pemula-dicodingTests
+  # Pods for submissionIosPemulaDicodingTests
   pod 'RxSwift'
   pod 'RxCocoa'
   pod 'Alamofire'
