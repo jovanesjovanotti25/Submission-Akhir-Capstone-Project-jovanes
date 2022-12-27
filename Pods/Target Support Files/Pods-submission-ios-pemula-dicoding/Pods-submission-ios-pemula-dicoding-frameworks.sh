@@ -177,14 +177,12 @@ code_sign_if_enabled() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Alamofire-iOS11.0/Alamofire.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/Kingfisher-iOS11.0/Kingfisher.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/RxCocoa-iOS11.0/RxCocoa.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/RxRelay-iOS11.0/RxRelay.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/RxSwift-iOS11.0/RxSwift.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Alamofire-iOS11.0/Alamofire.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/Kingfisher-iOS11.0/Kingfisher.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/RxCocoa-iOS11.0/RxCocoa.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/RxRelay-iOS11.0/RxRelay.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/RxSwift-iOS11.0/RxSwift.framework"

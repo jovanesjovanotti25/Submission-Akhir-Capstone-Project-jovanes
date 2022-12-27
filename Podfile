@@ -10,7 +10,6 @@ target 'submission-ios-pemula-dicoding' do
   pod 'RxCocoa'
   pod 'Alamofire'
   pod 'SwiftLint'
-  pod ‘Kingfisher’
 end
 
 target 'submissionIosPemulaDicodingTests' do
@@ -22,5 +21,4 @@ target 'submissionIosPemulaDicodingTests' do
   pod 'RxCocoa'
   pod 'Alamofire'
   pod 'SwiftLint'
-  pod ‘Kingfisher’
 end
