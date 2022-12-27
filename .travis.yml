@@ -1,0 +1,12 @@
+//
+//  .travis.yml
+//  submission-ios-pemula-dicoding
+//
+//  Created by Jovanes Jovanotti on 27/12/22.
+//
+
+osx_image: xcode13.4
+language: swift
+xcode_workspace: YourApp.xcworkspace
+xcode_destination: platform=iOS Simulator,OS=15.5,name=iPhone 13
+script: xcodebuild clean build test -project submission-ios-pemula-dicoding.xcworkspace  -scheme "submission-ios-pemula-dicoding" CODE_SIGNING_REQUIRED=NO

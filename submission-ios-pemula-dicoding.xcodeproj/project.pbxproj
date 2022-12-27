@@ -87,6 +87,8 @@
 		E0C0463228DC68F4004804B1 /* ListSportCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0C0462D28DC68F4004804B1 /* ListSportCell.xib */; };
 		E0C0463528DC6C05004804B1 /* APIEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C0463428DC6C05004804B1 /* APIEnum.swift */; };
 		E0C0463628DC6C05004804B1 /* APIEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C0463428DC6C05004804B1 /* APIEnum.swift */; };
+		E0C5258A295AC59E0005AE7F /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = E0C52589295AC59E0005AE7F /* .travis.yml */; };
+		E0C5258B295AC59E0005AE7F /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = E0C52589295AC59E0005AE7F /* .travis.yml */; };
 		E0EC062F29411172000B6268 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = E0EC062E29411172000B6268 /* .swiftlint.yml */; };
 		E0EC063029411172000B6268 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = E0EC062E29411172000B6268 /* .swiftlint.yml */; };
 		E0F3CDEC28DB373C00325A90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F3CDEB28DB373C00325A90 /* AppDelegate.swift */; };
@@ -166,6 +168,7 @@
 		E0C0462C28DC68F4004804B1 /* ListSportCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSportCell.swift; sourceTree = "<group>"; };
 		E0C0462D28DC68F4004804B1 /* ListSportCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListSportCell.xib; sourceTree = "<group>"; };
 		E0C0463428DC6C05004804B1 /* APIEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEnum.swift; sourceTree = "<group>"; };
+		E0C52589295AC59E0005AE7F /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .travis.yml; sourceTree = "<group>"; };
 		E0EC062E29411172000B6268 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		E0F3CDE828DB373C00325A90 /* submission-ios-pemula-dicoding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "submission-ios-pemula-dicoding.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0F3CDEB28DB373C00325A90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -506,6 +509,7 @@
 		E0F3CDDF28DB373C00325A90 = {
 			isa = PBXGroup;
 			children = (
+				E0C52589295AC59E0005AE7F /* .travis.yml */,
 				E0EC062E29411172000B6268 /* .swiftlint.yml */,
 				E0F3CDEA28DB373C00325A90 /* submission-ios-pemula-dicoding */,
 				E0F3CE0128DB373D00325A90 /* submission-ios-pemula-dicodingTests */,
@@ -669,6 +673,7 @@
 				E010057428F3FBBE0087B0D0 /* ListFavoriteGamesViewController.xib in Resources */,
 				E0C0463128DC68F4004804B1 /* ListSportCell.xib in Resources */,
 				E03E421C28DB3EBA001A580D /* MainViewController.xib in Resources */,
+				E0C5258A295AC59E0005AE7F /* .travis.yml in Resources */,
 				E010057D28F4A85B0087B0D0 /* FavoriteGamesCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -682,6 +687,7 @@
 				E0C0463228DC68F4004804B1 /* ListSportCell.xib in Resources */,
 				E010057E28F4A85B0087B0D0 /* FavoriteGamesCell.xib in Resources */,
 				E03EBAAA28DD2BBD0020A488 /* LoadingViewController.xib in Resources */,
+				E0C5258B295AC59E0005AE7F /* .travis.yml in Resources */,
 				E0BC398128EF3ADB0096287B /* RatingCell.xib in Resources */,
 				E010057528F3FBBE0087B0D0 /* ListFavoriteGamesViewController.xib in Resources */,
 				E03EBAA128DD21CF0020A488 /* ProfileViewController.xib in Resources */,
