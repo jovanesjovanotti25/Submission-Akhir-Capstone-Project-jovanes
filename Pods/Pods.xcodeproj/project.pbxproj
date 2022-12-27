@@ -15,6 +15,7 @@
 			dependencies = (
 			);
 			name = "SwiftLint-iOS12.0";
+			productName = "SwiftLint-iOS12.0";
 		};
 		AA7C598CCABA4A883635A2EB0A552FF6 /* SwiftLint-iOS13.0 */ = {
 			isa = PBXAggregateTarget;
@@ -24,6 +25,7 @@
 			dependencies = (
 			);
 			name = "SwiftLint-iOS13.0";
+			productName = "SwiftLint-iOS13.0";
 		};
 /* End PBXAggregateTarget section */
 
@@ -1002,7 +1004,7 @@
 		4A9AF5D945E58CD8DB9301127E566C64 /* SubscribeOn.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SubscribeOn.swift; path = RxSwift/Observables/SubscribeOn.swift; sourceTree = "<group>"; };
 		4B1007C33267B74BC9988C911CD132A7 /* ServerTrustEvaluation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustEvaluation.swift; path = Source/ServerTrustEvaluation.swift; sourceTree = "<group>"; };
 		4B6BE434FC1E89C576E0440E214356B4 /* Window.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Window.swift; path = RxSwift/Observables/Window.swift; sourceTree = "<group>"; };
-		4CCF38C16072B99A977150375BB1D6F0 /* Pods-submission-ios-pemula-dicodingTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-submission-ios-pemula-dicodingTests"; path = Pods_submission_ios_pemula_dicodingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CCF38C16072B99A977150375BB1D6F0 /* Pods_submission_ios_pemula_dicodingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_submission_ios_pemula_dicodingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E381033B8FBA593FFE35BB58170A6DD /* Debug.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debug.swift; path = RxSwift/Observables/Debug.swift; sourceTree = "<group>"; };
 		4EF24CEF3BCE29A0A41A6138F090BF79 /* Protected.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protected.swift; path = Source/Protected.swift; sourceTree = "<group>"; };
 		4F06250AB399A115B11738521C653D07 /* RxSwift-iOS13.0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "RxSwift-iOS13.0-dummy.m"; path = "../RxSwift-iOS13.0/RxSwift-iOS13.0-dummy.m"; sourceTree = "<group>"; };
@@ -1142,7 +1144,7 @@
 		998411E94F7315BF884EBD9161D27416 /* Indicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Indicator.swift; path = Sources/Indicator.swift; sourceTree = "<group>"; };
 		9C6DA6BA9906FACE02E7EA2101FDDCF2 /* Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Rx.swift; path = RxSwift/Rx.swift; sourceTree = "<group>"; };
 		9CBD3A50203BD55A3B424D11087EC3A2 /* Zip+arity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Zip+arity.swift"; path = "RxSwift/Observables/Zip+arity.swift"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F2E317A5043E65EE81E03D2C72024DF /* KVORepresentable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KVORepresentable.swift; path = RxCocoa/Foundation/KVORepresentable.swift; sourceTree = "<group>"; };
 		9FA5709070F4942CD1FEC4C5537CF697 /* Infallible+Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Infallible+Operators.swift"; path = "RxSwift/Traits/Infallible/Infallible+Operators.swift"; sourceTree = "<group>"; };
 		9FDCD9D2C77144955AAFE41E68FF658A /* Pods-submission-ios-pemula-dicoding.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-submission-ios-pemula-dicoding.release.xcconfig"; sourceTree = "<group>"; };
@@ -1162,7 +1164,7 @@
 		A66035378628CFCAF8D423D5CD46588C /* SynchronizedDisposeType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SynchronizedDisposeType.swift; path = RxSwift/Concurrency/SynchronizedDisposeType.swift; sourceTree = "<group>"; };
 		A682C346E6E2102A43F6B402392FDC84 /* Kingfisher-iOS12.0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Kingfisher-iOS12.0.debug.xcconfig"; sourceTree = "<group>"; };
 		A7C0B54506EBD92D5F0F76DF01FBDE05 /* Platform.Darwin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Platform.Darwin.swift; path = Platform/Platform.Darwin.swift; sourceTree = "<group>"; };
-		A81DE11502812B3BA78B355F34FA29FC /* Pods-submission-ios-pemula-dicoding */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-submission-ios-pemula-dicoding"; path = Pods_submission_ios_pemula_dicoding.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A81DE11502812B3BA78B355F34FA29FC /* Pods_submission_ios_pemula_dicoding.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_submission_ios_pemula_dicoding.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A977294CF87CE6CB77189E74FAA6534C /* Kingfisher-iOS12.0-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kingfisher-iOS12.0-umbrella.h"; sourceTree = "<group>"; };
 		AA51F2C23D76ADFC7C9C0E5E70D1E869 /* HTTPHeaders.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPHeaders.swift; path = Source/HTTPHeaders.swift; sourceTree = "<group>"; };
 		AA56BED84B6497837D6397F306CFF67F /* Skip.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Skip.swift; path = RxSwift/Observables/Skip.swift; sourceTree = "<group>"; };
@@ -1533,7 +1535,6 @@
 				89A7150F014A9F8CE4707CD91C808BC3 /* WKWebView+Rx.swift */,
 				5D58706FD8278F72A178E9F62DA1237A /* Support Files */,
 			);
-			name = RxCocoa;
 			path = RxCocoa;
 			sourceTree = "<group>";
 		};
@@ -1594,7 +1595,6 @@
 				14F014550EB29ABD15D5D11B92B6E27E /* Utils.swift */,
 				13748692ACF0E6CF2BD30D77EFFC61B1 /* Support Files */,
 			);
-			name = RxRelay;
 			path = RxRelay;
 			sourceTree = "<group>";
 		};
@@ -1792,7 +1792,6 @@
 				62AD620104758F785314316E3A92F301 /* Zip+Collection.swift */,
 				ED038AA59098D0858082CB0C37C0169C /* Support Files */,
 			);
-			name = RxSwift;
 			path = RxSwift;
 			sourceTree = "<group>";
 		};
@@ -1878,7 +1877,6 @@
 				65BEE3DF7B22EE3AB57331375B35B13D /* UIButton+Kingfisher.swift */,
 				A5593F2A0064E4360C3CD09BA486C26B /* Support Files */,
 			);
-			name = Kingfisher;
 			path = Kingfisher;
 			sourceTree = "<group>";
 		};
@@ -1923,7 +1921,6 @@
 				AB7D0152880813BA78F97B0E054E821A /* Validation.swift */,
 				6901F2796F75C6185D80613D80A725D4 /* Support Files */,
 			);
-			name = Alamofire;
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
@@ -1954,7 +1951,6 @@
 			children = (
 				251E6CC1C5DCA334269FCEAB5D94A3AE /* Support Files */,
 			);
-			name = SwiftLint;
 			path = SwiftLint;
 			sourceTree = "<group>";
 		};
@@ -1987,8 +1983,8 @@
 				0C016F9151B61C4CE6559E22E686AA97 /* Alamofire-iOS13.0 */,
 				1112E25D24FEA13C903F62EC73A51849 /* Kingfisher-iOS12.0 */,
 				2282B60830DCC62780861FB8088D082C /* Kingfisher-iOS13.0 */,
-				A81DE11502812B3BA78B355F34FA29FC /* Pods-submission-ios-pemula-dicoding */,
-				4CCF38C16072B99A977150375BB1D6F0 /* Pods-submission-ios-pemula-dicodingTests */,
+				A81DE11502812B3BA78B355F34FA29FC /* Pods_submission_ios_pemula_dicoding.framework */,
+				4CCF38C16072B99A977150375BB1D6F0 /* Pods_submission_ios_pemula_dicodingTests.framework */,
 				FA96146BE1FEA244EAF39B1AA870F52A /* RxCocoa-iOS12.0 */,
 				EA2F3283BE21490B4F386249554434C1 /* RxCocoa-iOS13.0 */,
 				DE969F1C97CDA24F265715A3608EF7BA /* RxRelay-iOS12.0 */,
@@ -2206,7 +2202,7 @@
 			);
 			name = "Pods-submission-ios-pemula-dicodingTests";
 			productName = Pods_submission_ios_pemula_dicodingTests;
-			productReference = 4CCF38C16072B99A977150375BB1D6F0 /* Pods-submission-ios-pemula-dicodingTests */;
+			productReference = 4CCF38C16072B99A977150375BB1D6F0 /* Pods_submission_ios_pemula_dicodingTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		49D90721C5BA31457EE503ED3B3BB8E8 /* RxCocoa-iOS13.0 */ = {
@@ -2250,7 +2246,7 @@
 			);
 			name = "Pods-submission-ios-pemula-dicoding";
 			productName = Pods_submission_ios_pemula_dicoding;
-			productReference = A81DE11502812B3BA78B355F34FA29FC /* Pods-submission-ios-pemula-dicoding */;
+			productReference = A81DE11502812B3BA78B355F34FA29FC /* Pods_submission_ios_pemula_dicoding.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		674195C4CB27B7F4591EDB48382A7FA4 /* Alamofire-iOS13.0 */ = {
@@ -3683,7 +3679,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-submission-ios-pemula-dicodingTests/Pods-submission-ios-pemula-dicodingTests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3791,7 +3787,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-submission-ios-pemula-dicodingTests/Pods-submission-ios-pemula-dicodingTests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -4165,7 +4161,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-submission-ios-pemula-dicoding/Pods-submission-ios-pemula-dicoding-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -4341,7 +4337,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-submission-ios-pemula-dicoding/Pods-submission-ios-pemula-dicoding-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

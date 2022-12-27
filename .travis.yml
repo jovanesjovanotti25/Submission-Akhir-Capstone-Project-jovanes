@@ -2,7 +2,7 @@ language: swift
 osx_image: xcode13.4
 xcode_workspace: submission-ios-pemula-dicoding.xcworkspace
 xcode_scheme: submission-ios-pemula-dicoding
-xcode_destination: platform=iOS Simulator,OS=13.5,name=iPhone 11
+xcode_destination: platform=iOS Simulator,OS=11.0,name=iPhone 11
 podfile: Podfile
 before_install:
   - gem install cocoapods
@@ -10,4 +10,4 @@ before_install:
 script:
   - set -o pipefail && xcodebuild -version
   - set -o pipefail && xcodebuild -showsdks
-  - set -o pipefail && xcodebuild -project submission-ios-pemula-dicoding.xcodeproj -scheme submission-ios-pemula-dicoding -configuration Debug -destination "platform=iOS Simulator,OS=15.5,name=iPhone 13" ONLY_ACTIVE_ARCH=YES
+  - set -o pipefail && xcodebuild -project submission-ios-pemula-dicoding.xcodeproj -scheme submission-ios-pemula-dicoding -configuration Debug -destination "platform=iOS Simulator,OS=11.0,name=iPhone 11" ONLY_ACTIVE_ARCH=YES
