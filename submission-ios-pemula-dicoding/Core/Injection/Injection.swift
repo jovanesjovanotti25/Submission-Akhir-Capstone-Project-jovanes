@@ -6,6 +6,12 @@
 //
 
 import Foundation
+import Game
+import DetailGame
+import FavoriteGame
+import RealmSwift
+import UIKit
+
 
 final class Injection: NSObject {
  
@@ -36,19 +42,19 @@ final class Injection: NSObject {
         let detailGameRepository = provideRepositoryDetail()
       return DetailGameInteractor(repository: detailGameRepository)
     }
-    
-    
-    private func provideDataSourceFavorite() -> FavoriteGameStorageProtocol {
-      return FavoriteGameStorage()
+
+    func provideDataLocalFavorite() -> FavoriteGameLocalProtocol {
+        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+        return FavoriteGameLocal(realm: appDelegate.realm)
     }
 
-    private func provideRepositoryFavorite() -> FavoriteGameRepositoryProtocol {
-      let favoriteGamesDataSource = provideDataSourceFavorite()
-      return FavoriteGameRepository(dataSource: favoriteGamesDataSource)
+    func provideLocalRepositoryFavorite() -> FavoriteGameLocalRepositoryProtocol {
+      let favoriteGamesDataSource = provideDataLocalFavorite()
+      return FavoriteGameLocalRepository(dataSource: favoriteGamesDataSource)
     }
 
-    func provideUseCaseFavorite() -> FavoriteGamesUseCase {
-        let favoriteGamesRepository = provideRepositoryFavorite()
-        return FavoriteGamesInteractor(repository: favoriteGamesRepository)
+    func provideLocalUseCaseFavorite() -> FavoriteGamesLocalUseCase {
+        let favoriteGamesRepository = provideLocalRepositoryFavorite()
+        return FavoriteGamesLocalInteractor(repository: favoriteGamesRepository)
     }
 }

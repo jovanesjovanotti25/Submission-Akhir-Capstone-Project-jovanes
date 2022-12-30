@@ -6,6 +6,9 @@
 //
 
 import UIKit
+import Game
+import DetailGame
+import FavoriteGame
 
 class ModuleBuilder: NSObject {
         class func getView(module: ModuleEnum) -> UIViewController {
@@ -27,7 +30,7 @@ class ModuleBuilder: NSObject {
                 profileViewController.title = "Profile"
                 return profileViewController
             case .listFavoriteGames:
-                let usecase = Injection.init().provideUseCaseFavorite()
+                let usecase = Injection.init().provideLocalUseCaseFavorite()
                 let presenter = ListFavoriteGamesViewModel(favoriteGamesUseCase: usecase)
                 let  listFavoriteGamesViewController = ListFavoriteGamesViewController()
                 listFavoriteGamesViewController.presenter = presenter
@@ -36,8 +39,9 @@ class ModuleBuilder: NSObject {
                 return listFavoriteGamesViewController
             case .detailGame:
                 let usecase = Injection.init().provideUseCaseDetail()
-                let usecasFavoritee = Injection.init().provideUseCaseFavorite()
+                let usecasFavoritee = Injection.init().provideLocalUseCaseFavorite()
                 let presenter = DetailGameViewModel(detailGameUseCase: usecase, favoriteGamesUseCase: usecasFavoritee)
+
                 let  detailGameViewController = DetailGameViewController()
                 detailGameViewController.presenter = presenter
                 detailGameViewController.modalPresentationStyle = .fullScreen

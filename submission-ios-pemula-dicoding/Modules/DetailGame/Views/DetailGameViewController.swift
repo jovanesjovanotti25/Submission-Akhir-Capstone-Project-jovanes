@@ -7,6 +7,8 @@
 
 import UIKit
 import RxSwift
+import DetailGame
+import FavoriteGame
 
 class DetailGameViewController: UIViewController {
     
@@ -37,11 +39,10 @@ class DetailGameViewController: UIViewController {
     var loading: LoadingViewController?
     let disposeBag = DisposeBag()
 
+    var convertStructToObjt = [GameEntity]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -50,20 +51,12 @@ class DetailGameViewController: UIViewController {
     }
     
     func loadData() {
-
         showLoadingIndicator()
-
-        
         let listFavoriteGames = presenter.getFavoriteGames()
-        
-        
         listFavoriteGames
          .observe(on: MainScheduler.instance)
          .subscribe { result in
-             self.dataCoreGames = result
-//             DispatchQueue.main.asyncAfter(deadline: .now() + 0.75) {
-
-//             }
+             self.convertStructToObjt = result
          } onError: { error in
 
          } onCompleted: {
@@ -71,7 +64,6 @@ class DetailGameViewController: UIViewController {
          }.disposed(by: disposeBag)
         
         let detailGame = presenter.getDetailGames(detailId: detailGameId!)
-        
         detailGame
          .observe(on: MainScheduler.instance)
          .subscribe { result in
@@ -84,10 +76,6 @@ class DetailGameViewController: UIViewController {
          } onCompleted: {
              self.removeLoadingIndicator()
          }.disposed(by: disposeBag)
-        
-        
-        
-
     }
     
     func setupUI(detailGame: DetailGame?){
@@ -118,7 +106,6 @@ class DetailGameViewController: UIViewController {
     }
     
     func setupFavoriteGame(){
-//        DispatchQueue.main.asyncAfter(deadline: .now() + 0.75) {
             if  self.checkFavoriteGames() {
             if #available(iOS 13.0, *) {
                 self.icBtnFavoriteGame.image = UIImage(systemName: "heart.fill")
@@ -134,11 +121,10 @@ class DetailGameViewController: UIViewController {
             }
             self.lblBtnFavoriteGame.text = "Add to Favorites"
         }
-//        }
     }
     
     func checkFavoriteGames() -> Bool {
-        let exists = dataCoreGames.first (where:{ $0.id == detailGameData?.id })
+        let exists = convertStructToObjt.first (where:{ $0.id == detailGameData?.id })
         if  exists != nil {
           return true
         }
@@ -157,52 +143,40 @@ class DetailGameViewController: UIViewController {
     }
     
     func removeLoadingIndicator() {
-        print("======= MASUK removeLoadingIndicator")
             loading?.loadingIndicator.stopAnimating()
             loading?.removeFromSuperview()
     }
     
-    
     @IBAction func btnActionFavoriteGame(_ sender: Any) {
-        print("btnActionFavoriteGame")
         let changeDateReleaseFormate = DateTime.dateFormatter(date: detailGameData?.released ?? "")
-        
-        let favGames = DataCoreGames(
-            id: detailGameData?.id,
-            name: detailGameData?.name,
-            playtime: detailGameData?.playtime,
+
+        let favGames = GameEntityRequest(
+            id: detailGameData?.id ?? 0,
+            name: detailGameData?.name ?? "",
+            playtime: detailGameData?.playtime ?? 0,
             released: changeDateReleaseFormate,
-            background_image: detailGameData?.background_image,
-            rating: detailGameData?.rating
+            background_image: detailGameData?.background_image ?? "",
+            rating: detailGameData?.rating ?? 0
         )
-        print("favGames \(favGames)")
-        
+
         if checkFavoriteGames(){
-            
             let usecase = Injection.init().provideUseCaseDetail()
-            let usecasFavoritee = Injection.init().provideUseCaseFavorite()
+            let usecasFavoritee = Injection.init().provideLocalUseCaseFavorite()
             let presenter = DetailGameViewModel(detailGameUseCase: usecase, favoriteGamesUseCase: usecasFavoritee)
-
-            
             let deleteFavoriteGames = presenter.deleteFavoriteGames(dataCoreGames: favGames)
-
             deleteFavoriteGames
              .observe(on: MainScheduler.instance)
              .subscribe { result in
-                 print("deleteFavoriteGames \(result)")
                  self.loadData()
              } onError: { error in
                  
              } onCompleted: {
                  
              }.disposed(by: disposeBag)
-            
         } else {
             let usecase = Injection.init().provideUseCaseDetail()
-            let usecasFavoritee = Injection.init().provideUseCaseFavorite()
+            let usecasFavoritee = Injection.init().provideLocalUseCaseFavorite()
             let presenter = DetailGameViewModel(detailGameUseCase: usecase, favoriteGamesUseCase: usecasFavoritee)
-
-            
             let setFavoriteGames = presenter.setFavoriteGames(dataCoreGames: favGames)
 
             setFavoriteGames
@@ -216,10 +190,7 @@ class DetailGameViewController: UIViewController {
                  
              }.disposed(by: disposeBag)
         }
-        
     }
-    
-
 }
 
 extension DetailGameViewController: UITableViewDelegate, UITableViewDataSource {
@@ -249,8 +220,4 @@ extension DetailGameViewController: UITableViewDelegate, UITableViewDataSource {
         return cell
 
     }
-    
-    
-    
-    
 }

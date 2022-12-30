@@ -8,25 +8,23 @@
 import UIKit
 import Kingfisher
 import RxSwift
+import FavoriteGame
 
 class ListFavoriteGamesViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var emptyContainer: UIView!
     
-    // Variable penampung untuk load table View
-    var dataCoreGames = [DataCoreGames]()
-    
+    var dataCoreGames = [GameEntity]()
+
     var presenter: ListFavoriteGamesViewModel!
     var loading: LoadingViewController?
     let identifier = "FavoriteGamesCell"
     let disposeBag = DisposeBag()
 
-
-
     override func viewDidLoad() {
         super.viewDidLoad()
-//        setupBinding()
+
     }
 
     override func viewWillAppear(_ animated: Bool) {
@@ -35,11 +33,9 @@ class ListFavoriteGamesViewController: UIViewController {
     }
     
     func loadData(){
-        
-        
         showLoadingIndicator()
         let listFavoriteGames = presenter.getFavoriteGames()
-        
+
         listFavoriteGames
          .observe(on: MainScheduler.instance)
          .subscribe { result in
@@ -48,9 +44,9 @@ class ListFavoriteGamesViewController: UIViewController {
          } onError: { error in
 
          } onCompleted: {
-             self.removeLoadingIndicator()
+
          }.disposed(by: disposeBag)
-        
+        self.removeLoadingIndicator()
     }
 
 
@@ -67,8 +63,6 @@ class ListFavoriteGamesViewController: UIViewController {
         tableView.dataSource = self
         tableView.reloadData()
     }
-    
-    
 
     func showLoadingIndicator() {
         loading = LoadingViewController()
@@ -82,6 +76,7 @@ class ListFavoriteGamesViewController: UIViewController {
     }
 
     func removeLoadingIndicator() {
+        print("removeLoadingIndicator")
         loading?.loadingIndicator.stopAnimating()
         loading?.removeFromSuperview()
     }
@@ -92,9 +87,6 @@ class ListFavoriteGamesViewController: UIViewController {
         detailGameViewController.detailGameId = detailGameId
         self.navigationController?.pushViewController(detailGameViewController, animated: true)
     }
-
-
-
 }
 
 extension ListFavoriteGamesViewController: UITableViewDelegate, UITableViewDataSource {
@@ -107,19 +99,19 @@ extension ListFavoriteGamesViewController: UITableViewDelegate, UITableViewDataS
         let cell = tableView.dequeueReusableCell(withIdentifier: identifier, for: indexPath) as! FavoriteGamesCell
         let data = dataCoreGames[indexPath.row]
         
-        if let urls = URL(string: data.background_image ?? ""){
+        if let urls = URL(string: data.background_image ){
             cell.imgFavGames.kf.setImage(with: urls)
         }
         cell.lblTitleFavGames.text = data.name
-        cell.lblPlaytimeFavGames.text = "\(data.playtime ?? 0) Hour"
-        cell.lblRatingFavGames.text = "\(data.rating ?? 0)"
+        cell.lblPlaytimeFavGames.text = "\(data.playtime) Hour"
+        cell.lblRatingFavGames.text = "\(data.rating)"
         cell.lblReleaseFavGames.text = data.released
         
         return cell
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        self.presentDetailGame(detailGameId: dataCoreGames[indexPath.row].id!)
+        self.presentDetailGame(detailGameId: dataCoreGames[indexPath.row].id)
         tableView.deselectRow(at: indexPath, animated: true)
     }
 }

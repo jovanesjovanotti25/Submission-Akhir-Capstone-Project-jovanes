@@ -176,16 +176,12 @@ code_sign_if_enabled() {
 }
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/Alamofire-iOS15.5/Alamofire.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/RxCocoa-iOS15.5/RxCocoa.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/RxRelay-iOS15.5/RxRelay.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/RxSwift-iOS15.5/RxSwift.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Reflection-iOS15.5/Reflection.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Structify-iOS15.5/Structify.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/Alamofire-iOS15.5/Alamofire.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/RxCocoa-iOS15.5/RxCocoa.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/RxRelay-iOS15.5/RxRelay.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/RxSwift-iOS15.5/RxSwift.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Reflection-iOS15.5/Reflection.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Structify-iOS15.5/Structify.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

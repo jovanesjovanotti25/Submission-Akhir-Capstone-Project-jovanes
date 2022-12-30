@@ -2,8 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>apiKey</key>
-	<string>e4c9df3b4059449192d2fd34c8f350e0</string>
 	<key>HOST_URL</key>
 	<string>https://api.rawg.io/api/games</string>
 	<key>UIApplicationSceneManifest</key>
@@ -11,5 +9,7 @@
 		<key>UIApplicationSupportsMultipleScenes</key>
 		<false/>
 	</dict>
+	<key>apiKey</key>
+	<string>e4c9df3b4059449192d2fd34c8f350e0</string>
 </dict>
 </plist>

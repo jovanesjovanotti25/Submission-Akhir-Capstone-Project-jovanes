@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
-		0540756FEB82EDB5AC32A867951713D9 /* SwiftLint-iOS11.0 */ = {
+		19F95F61A674D7A84D17C12A56ABABBC /* SwiftLint-iOS14.0 */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 4EB300D762EE84285BB53B2D9F69EBF8 /* Build configuration list for PBXAggregateTarget "SwiftLint-iOS11.0" */;
+			buildConfigurationList = D13A86FD6C10D59F10EEB25314B7803B /* Build configuration list for PBXAggregateTarget "SwiftLint-iOS14.0" */;
 			buildPhases = (
 			);
 			dependencies = (
 			);
-			name = "SwiftLint-iOS11.0";
+			name = "SwiftLint-iOS14.0";
 		};
 		E3225808F548A6D1061DED73C447408F /* SwiftLint-iOS15.5 */ = {
 			isa = PBXAggregateTarget;
@@ -28,21 +28,21 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		252D09E80DAE308A29A715D61F9D2B88 /* Pods-submission-ios-pemula-dicoding-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B29E9DE136D96CFAEE7C46FE2C8EE5 /* Pods-submission-ios-pemula-dicoding-dummy.m */; };
-		5648402C0012C670619471B0DBF48638 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		2082636FE61CA86F228EAA9195988395 /* Pods-submission-ios-pemula-dicoding-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B29E9DE136D96CFAEE7C46FE2C8EE5 /* Pods-submission-ios-pemula-dicoding-dummy.m */; };
 		62B88F643E9115649F3A564F3EF8BF8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		6593FC9F5C92E8486A7CC3C5619CFB64 /* Pods-submission-ios-pemula-dicoding-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD93F2A38C8CF321D0E828FFE09570F4 /* Pods-submission-ios-pemula-dicoding-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B2D8CBF0FACDC1047D96A51514A1CDD /* Pods-submission-ios-pemula-dicoding-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD93F2A38C8CF321D0E828FFE09570F4 /* Pods-submission-ios-pemula-dicoding-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9E5CB788871220681DC4BC80C0061134 /* Pods-submissionIosPemulaDicodingTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EE8B81A28FAECE9073D877658EA7D38 /* Pods-submissionIosPemulaDicodingTests-dummy.m */; };
 		E0F8E426F90F9D2E19EB3253DF2D7840 /* Pods-submissionIosPemulaDicodingTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A1FD38A73BEB2D37D510E147344CC0DC /* Pods-submissionIosPemulaDicodingTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E55865B20C1E9C8B61DD8096F7869930 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3D45EF80D899E3DFBB41B42973BE2F37 /* PBXContainerItemProxy */ = {
+		0B3A29CA15FB17B21134E6921E375A2B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0540756FEB82EDB5AC32A867951713D9;
-			remoteInfo = "SwiftLint-iOS11.0";
+			remoteGlobalIDString = 19F95F61A674D7A84D17C12A56ABABBC;
+			remoteInfo = "SwiftLint-iOS14.0";
 		};
 		74EB0952B2BD8175DBA1342D3E96FEBC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -54,16 +54,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		091C685DE67DB3DC0CF4D57E9E4ACBFB /* SwiftLint-iOS14.0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SwiftLint-iOS14.0.release.xcconfig"; sourceTree = "<group>"; };
+		331D5AAAA3B4826E50800DA5EDC69349 /* SwiftLint-iOS15.5.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "SwiftLint-iOS15.5.debug.xcconfig"; path = "../SwiftLint-iOS15.5/SwiftLint-iOS15.5.debug.xcconfig"; sourceTree = "<group>"; };
 		3A0526EC378344A8FCE622883ED4AA15 /* Pods-submissionIosPemulaDicodingTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-submissionIosPemulaDicodingTests"; path = Pods_submissionIosPemulaDicodingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E7A9FE3D182B7F49D5C5104BE9C372D /* Pods-submission-ios-pemula-dicoding-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-submission-ios-pemula-dicoding-Info.plist"; sourceTree = "<group>"; };
 		3E9FB00B29CDC80B7873ADC5D61BB894 /* Pods-submissionIosPemulaDicodingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-submissionIosPemulaDicodingTests.debug.xcconfig"; sourceTree = "<group>"; };
 		415AC35027BAD39C833C2EEC98464927 /* Pods-submission-ios-pemula-dicoding-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-submission-ios-pemula-dicoding-acknowledgements.markdown"; sourceTree = "<group>"; };
 		52B29E9DE136D96CFAEE7C46FE2C8EE5 /* Pods-submission-ios-pemula-dicoding-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-submission-ios-pemula-dicoding-dummy.m"; sourceTree = "<group>"; };
 		5EE8B81A28FAECE9073D877658EA7D38 /* Pods-submissionIosPemulaDicodingTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-submissionIosPemulaDicodingTests-dummy.m"; sourceTree = "<group>"; };
-		64299A5B48158EE115C4C96D9B6BCC4C /* SwiftLint-iOS11.0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SwiftLint-iOS11.0.debug.xcconfig"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		80CBD8E4A31F45152B02360D31A89F8A /* Pods-submissionIosPemulaDicodingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-submissionIosPemulaDicodingTests.release.xcconfig"; sourceTree = "<group>"; };
-		8926D9A5CDEAE2207C30DC1EBEEF745B /* SwiftLint-iOS15.5.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "SwiftLint-iOS15.5.debug.xcconfig"; path = "../SwiftLint-iOS15.5/SwiftLint-iOS15.5.debug.xcconfig"; sourceTree = "<group>"; };
 		98D2624E2DED440D40E9042AC480420A /* Pods-submissionIosPemulaDicodingTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-submissionIosPemulaDicodingTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9EBF02FC4786A169BC65CCFF542049FE /* Pods-submission-ios-pemula-dicoding.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-submission-ios-pemula-dicoding.debug.xcconfig"; sourceTree = "<group>"; };
@@ -71,29 +71,29 @@
 		A81DE11502812B3BA78B355F34FA29FC /* Pods-submission-ios-pemula-dicoding */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-submission-ios-pemula-dicoding"; path = Pods_submission_ios_pemula_dicoding.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB5659D7F953F528E537A17D09D0B560 /* Pods-submissionIosPemulaDicodingTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-submissionIosPemulaDicodingTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		BDFB80BA6AACAE87DBF0CEE2344D1BFC /* Pods-submission-ios-pemula-dicoding-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-submission-ios-pemula-dicoding-acknowledgements.plist"; sourceTree = "<group>"; };
-		C3D388A6D0EE75231EA23185221446A4 /* SwiftLint-iOS11.0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SwiftLint-iOS11.0.release.xcconfig"; sourceTree = "<group>"; };
+		CB035415B2390B1067A356335CD2B475 /* SwiftLint-iOS14.0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SwiftLint-iOS14.0.debug.xcconfig"; sourceTree = "<group>"; };
+		DA2AAD938C7BC57B1EC630925E9AA01B /* SwiftLint-iOS15.5.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "SwiftLint-iOS15.5.release.xcconfig"; path = "../SwiftLint-iOS15.5/SwiftLint-iOS15.5.release.xcconfig"; sourceTree = "<group>"; };
 		DD93F2A38C8CF321D0E828FFE09570F4 /* Pods-submission-ios-pemula-dicoding-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-submission-ios-pemula-dicoding-umbrella.h"; sourceTree = "<group>"; };
 		DDA2F4C87C4BA53F49EB39383ED40346 /* Pods-submissionIosPemulaDicodingTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-submissionIosPemulaDicodingTests.modulemap"; sourceTree = "<group>"; };
 		DE10E78749567B0A269B1E4A044A256D /* Pods-submission-ios-pemula-dicoding.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-submission-ios-pemula-dicoding.release.xcconfig"; sourceTree = "<group>"; };
 		E280B7545625F928403E8CBA07725902 /* Pods-submission-ios-pemula-dicoding.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-submission-ios-pemula-dicoding.modulemap"; sourceTree = "<group>"; };
 		F7582BB72401C54A88033245F82C7BD8 /* Pods-submissionIosPemulaDicodingTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-submissionIosPemulaDicodingTests-Info.plist"; sourceTree = "<group>"; };
-		FC2FCBB6773E54BE049A9ADDA7125928 /* SwiftLint-iOS15.5.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "SwiftLint-iOS15.5.release.xcconfig"; path = "../SwiftLint-iOS15.5/SwiftLint-iOS15.5.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		176406F125A7C067EE0E84A22B3C0385 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E55865B20C1E9C8B61DD8096F7869930 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		87F39C60585541A5EB218418DBBA3256 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				62B88F643E9115649F3A564F3EF8BF8F /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F58F18B80F131ACFFA647961C3046CC7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5648402C0012C670619471B0DBF48638 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,6 +109,15 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		326C72621ABE25830F0A8EB5061F367B /* SwiftLint */ = {
+			isa = PBXGroup;
+			children = (
+				F41DDF554911C122F7D0DB6881929AF9 /* Support Files */,
+			);
+			name = SwiftLint;
+			path = SwiftLint;
+			sourceTree = "<group>";
+		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -120,7 +129,7 @@
 		965877409E01FB3D85D85E90E6B30185 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B52AA4D0B37928CBB5F9D897C6FA46EC /* SwiftLint */,
+				326C72621ABE25830F0A8EB5061F367B /* SwiftLint */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -166,15 +175,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B52AA4D0B37928CBB5F9D897C6FA46EC /* SwiftLint */ = {
-			isa = PBXGroup;
-			children = (
-				F07BA9983B99639ACCC8F2B475070DC8 /* Support Files */,
-			);
-			name = SwiftLint;
-			path = SwiftLint;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
@@ -194,16 +194,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F07BA9983B99639ACCC8F2B475070DC8 /* Support Files */ = {
+		F41DDF554911C122F7D0DB6881929AF9 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				64299A5B48158EE115C4C96D9B6BCC4C /* SwiftLint-iOS11.0.debug.xcconfig */,
-				C3D388A6D0EE75231EA23185221446A4 /* SwiftLint-iOS11.0.release.xcconfig */,
-				8926D9A5CDEAE2207C30DC1EBEEF745B /* SwiftLint-iOS15.5.debug.xcconfig */,
-				FC2FCBB6773E54BE049A9ADDA7125928 /* SwiftLint-iOS15.5.release.xcconfig */,
+				CB035415B2390B1067A356335CD2B475 /* SwiftLint-iOS14.0.debug.xcconfig */,
+				091C685DE67DB3DC0CF4D57E9E4ACBFB /* SwiftLint-iOS14.0.release.xcconfig */,
+				331D5AAAA3B4826E50800DA5EDC69349 /* SwiftLint-iOS15.5.debug.xcconfig */,
+				DA2AAD938C7BC57B1EC630925E9AA01B /* SwiftLint-iOS15.5.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/SwiftLint-iOS11.0";
+			path = "../Target Support Files/SwiftLint-iOS14.0";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,11 +217,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B4E2FAFC2D8FDCF9534387A1EE6C2602 /* Headers */ = {
+		F7EEAB4C3157E126122E51B6FAAC60DC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6593FC9F5C92E8486A7CC3C5619CFB64 /* Pods-submission-ios-pemula-dicoding-umbrella.h in Headers */,
+				7B2D8CBF0FACDC1047D96A51514A1CDD /* Pods-submission-ios-pemula-dicoding-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,17 +230,17 @@
 /* Begin PBXNativeTarget section */
 		4EA270692937F0B22570A1C190F48658 /* Pods-submission-ios-pemula-dicoding */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 223DBC6304535B5FF2CE036ABC211EB1 /* Build configuration list for PBXNativeTarget "Pods-submission-ios-pemula-dicoding" */;
+			buildConfigurationList = 81C64F30B96C6D847FE13241A981B7DD /* Build configuration list for PBXNativeTarget "Pods-submission-ios-pemula-dicoding" */;
 			buildPhases = (
-				B4E2FAFC2D8FDCF9534387A1EE6C2602 /* Headers */,
-				9BE27C8B0910125ED6A32290B97A5B80 /* Sources */,
-				F58F18B80F131ACFFA647961C3046CC7 /* Frameworks */,
-				B40B999E8BB96B346628322FFD4AF8C6 /* Resources */,
+				F7EEAB4C3157E126122E51B6FAAC60DC /* Headers */,
+				05D1741EF33E4D5ED44A9D5A30ABDC62 /* Sources */,
+				176406F125A7C067EE0E84A22B3C0385 /* Frameworks */,
+				98C830FA9F03FD863FC715F23C03907D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0239803A7BB0956B4FADBBD9E509CE94 /* PBXTargetDependency */,
+				38F559030D53C0192E50A6122AA92E12 /* PBXTargetDependency */,
 			);
 			name = "Pods-submission-ios-pemula-dicoding";
 			productName = Pods_submission_ios_pemula_dicoding;
@@ -290,7 +290,7 @@
 			targets = (
 				4EA270692937F0B22570A1C190F48658 /* Pods-submission-ios-pemula-dicoding */,
 				59E7D7740D0CFADD489001B95A8EC18C /* Pods-submissionIosPemulaDicodingTests */,
-				0540756FEB82EDB5AC32A867951713D9 /* SwiftLint-iOS11.0 */,
+				19F95F61A674D7A84D17C12A56ABABBC /* SwiftLint-iOS14.0 */,
 				E3225808F548A6D1061DED73C447408F /* SwiftLint-iOS15.5 */,
 			);
 		};
@@ -304,7 +304,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B40B999E8BB96B346628322FFD4AF8C6 /* Resources */ = {
+		98C830FA9F03FD863FC715F23C03907D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -314,11 +314,11 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9BE27C8B0910125ED6A32290B97A5B80 /* Sources */ = {
+		05D1741EF33E4D5ED44A9D5A30ABDC62 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				252D09E80DAE308A29A715D61F9D2B88 /* Pods-submission-ios-pemula-dicoding-dummy.m in Sources */,
+				2082636FE61CA86F228EAA9195988395 /* Pods-submission-ios-pemula-dicoding-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,24 +333,41 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0239803A7BB0956B4FADBBD9E509CE94 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "SwiftLint-iOS11.0";
-			target = 0540756FEB82EDB5AC32A867951713D9 /* SwiftLint-iOS11.0 */;
-			targetProxy = 3D45EF80D899E3DFBB41B42973BE2F37 /* PBXContainerItemProxy */;
-		};
 		20B3CB520F5AEA9A43BB474369241965 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "SwiftLint-iOS15.5";
 			target = E3225808F548A6D1061DED73C447408F /* SwiftLint-iOS15.5 */;
 			targetProxy = 74EB0952B2BD8175DBA1342D3E96FEBC /* PBXContainerItemProxy */;
 		};
+		38F559030D53C0192E50A6122AA92E12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SwiftLint-iOS14.0";
+			target = 19F95F61A674D7A84D17C12A56ABABBC /* SwiftLint-iOS14.0 */;
+			targetProxy = 0B3A29CA15FB17B21134E6921E375A2B /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		053C218890239E478F64F01845DB2583 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 091C685DE67DB3DC0CF4D57E9E4ACBFB /* SwiftLint-iOS14.0.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		194B39DA347F61518505AFEB6019D110 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FC2FCBB6773E54BE049A9ADDA7125928 /* SwiftLint-iOS15.5.release.xcconfig */;
+			baseConfigurationReference = DA2AAD938C7BC57B1EC630925E9AA01B /* SwiftLint-iOS15.5.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -367,7 +384,7 @@
 		};
 		27F39BC5333148E5AB49FB140DE0981C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8926D9A5CDEAE2207C30DC1EBEEF745B /* SwiftLint-iOS15.5.debug.xcconfig */;
+			baseConfigurationReference = 331D5AAAA3B4826E50800DA5EDC69349 /* SwiftLint-iOS15.5.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -381,124 +398,7 @@
 			};
 			name = Debug;
 		};
-		7C90C9D463D27841693B8DC4F20E8D76 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C3D388A6D0EE75231EA23185221446A4 /* SwiftLint-iOS11.0.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		7F3505E1A2FF97A611D9888D5F733D6E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 80CBD8E4A31F45152B02360D31A89F8A /* Pods-submissionIosPemulaDicodingTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-submissionIosPemulaDicodingTests/Pods-submissionIosPemulaDicodingTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-submissionIosPemulaDicodingTests/Pods-submissionIosPemulaDicodingTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		903A0004D3E6651EFD5D2E16214D101B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */ = {
+		4BC7450F9457737EE3E637BA155B56F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -551,7 +451,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -564,60 +464,7 @@
 			};
 			name = Debug;
 		};
-		C0D51C24398079C05D35FF0C356868F1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9EBF02FC4786A169BC65CCFF542049FE /* Pods-submission-ios-pemula-dicoding.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-submission-ios-pemula-dicoding/Pods-submission-ios-pemula-dicoding-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-submission-ios-pemula-dicoding/Pods-submission-ios-pemula-dicoding.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C15AB47F07CAB31252FDDF70A43BD48C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 64299A5B48158EE115C4C96D9B6BCC4C /* SwiftLint-iOS11.0.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		E6C1D0395EC7FE333328838F86D6AF04 /* Release */ = {
+		573EB8F5786C3D69D5AF575221F2E5F0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DE10E78749567B0A269B1E4A044A256D /* Pods-submission-ios-pemula-dicoding.release.xcconfig */;
 			buildSettings = {
@@ -633,7 +480,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-submission-ios-pemula-dicoding/Pods-submission-ios-pemula-dicoding-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -654,6 +501,159 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		5965F99F99570805DCF5D4E94D46A2FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB035415B2390B1067A356335CD2B475 /* SwiftLint-iOS14.0.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F3505E1A2FF97A611D9888D5F733D6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80CBD8E4A31F45152B02360D31A89F8A /* Pods-submissionIosPemulaDicodingTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-submissionIosPemulaDicodingTests/Pods-submissionIosPemulaDicodingTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-submissionIosPemulaDicodingTests/Pods-submissionIosPemulaDicodingTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		EE367443B93BB42C3A9815A17ACAACBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EBF02FC4786A169BC65CCFF542049FE /* Pods-submission-ios-pemula-dicoding.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-submission-ios-pemula-dicoding/Pods-submission-ios-pemula-dicoding-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-submission-ios-pemula-dicoding/Pods-submission-ios-pemula-dicoding.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		F1232ECC4E2510BADCCFD533661A6468 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -695,29 +695,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		223DBC6304535B5FF2CE036ABC211EB1 /* Build configuration list for PBXNativeTarget "Pods-submission-ios-pemula-dicoding" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C0D51C24398079C05D35FF0C356868F1 /* Debug */,
-				E6C1D0395EC7FE333328838F86D6AF04 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */,
-				903A0004D3E6651EFD5D2E16214D101B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4EB300D762EE84285BB53B2D9F69EBF8 /* Build configuration list for PBXAggregateTarget "SwiftLint-iOS11.0" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C15AB47F07CAB31252FDDF70A43BD48C /* Debug */,
-				7C90C9D463D27841693B8DC4F20E8D76 /* Release */,
+				4BC7450F9457737EE3E637BA155B56F7 /* Debug */,
+				8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -731,11 +713,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		81C64F30B96C6D847FE13241A981B7DD /* Build configuration list for PBXNativeTarget "Pods-submission-ios-pemula-dicoding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE367443B93BB42C3A9815A17ACAACBE /* Debug */,
+				573EB8F5786C3D69D5AF575221F2E5F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8657377C9779D62DC1F1D2D371737DF9 /* Build configuration list for PBXNativeTarget "Pods-submissionIosPemulaDicodingTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F1232ECC4E2510BADCCFD533661A6468 /* Debug */,
 				7F3505E1A2FF97A611D9888D5F733D6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D13A86FD6C10D59F10EEB25314B7803B /* Build configuration list for PBXAggregateTarget "SwiftLint-iOS14.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5965F99F99570805DCF5D4E94D46A2FE /* Debug */,
+				053C218890239E478F64F01845DB2583 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

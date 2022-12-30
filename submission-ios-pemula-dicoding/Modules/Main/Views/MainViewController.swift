@@ -8,13 +8,14 @@
 import UIKit
 import Kingfisher
 import RxSwift
+import Game
+import RealmSwift
 
 class MainViewController: UIViewController {
 
     @IBOutlet weak var btnViewProfile: UIButton!
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var searchBar: UISearchBar!
-    
 
     let identifier = "ListSportCell"
     var loading: LoadingViewController?
@@ -28,7 +29,6 @@ class MainViewController: UIViewController {
         super.viewDidLoad()
         loadData()
         setupUI()
-        setupBinding()
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -50,16 +50,10 @@ class MainViewController: UIViewController {
         btnViewProfile.layer.borderColor = UIColor.white.cgColor
        
     }
-    
-    func setupBinding(){
 
-    }
-
-    
     func loadData(){
         showLoadingIndicator()
         let listGame = presenter.getListGames()
-        
         listGame
          .observe(on: MainScheduler.instance)
          .subscribe { result in
@@ -71,7 +65,6 @@ class MainViewController: UIViewController {
          } onCompleted: {
              self.removeLoadingIndicator()
          }.disposed(by: disposeBag)
-        
     }
     
     func showLoadingIndicator() {
@@ -92,12 +85,10 @@ class MainViewController: UIViewController {
     
     func presentDetailGame(detailGameId: Int){
         
-        let detailGameViewController = ModuleBuilder.getView(module: .detailGame) as! DetailGameViewController
+    let detailGameViewController = ModuleBuilder.getView(module: .detailGame) as! DetailGameViewController
         detailGameViewController.modalPresentationStyle = .fullScreen
         detailGameViewController.detailGameId = detailGameId
         self.navigationController?.pushViewController(detailGameViewController, animated: true)
-        
-
     }
     
     @IBAction func btnActionViewProfile(_ sender: Any) {
@@ -153,6 +144,7 @@ extension MainViewController: UITableViewDelegate, UITableViewDataSource{
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        self.presentDetailGame(detailGameId: filteredData[indexPath.row].id!)
         tableView.deselectRow(at: indexPath, animated: true)
     }
 }
