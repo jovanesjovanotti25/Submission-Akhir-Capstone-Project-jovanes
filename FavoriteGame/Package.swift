@@ -19,7 +19,6 @@ let package = Package(
         .package(url: "https://github.com/Alamofire/Alamofire.git", .upToNextMajor(from: "5.2.0")),
         .package(url: "https://github.com/ReactiveX/RxSwift.git", from: "6.0.0"),
         .package(url: "https://github.com/onevcat/Kingfisher.git", from: "5.15.8"),
-        .package(path: "../Game"),
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
@@ -30,8 +29,7 @@ let package = Package(
                 .product(name: "RealmSwift", package: "realm-cocoa"),
                 "Kingfisher",
                 "RxSwift",
-                "Alamofire",
-                "Game"]),
+                "Alamofire"]),
         .testTarget(
             name: "FavoriteGameTests",
             dependencies: ["FavoriteGame"]),

@@ -44,6 +44,15 @@
         "branch" : "main",
         "revision" : "91a36920b1ec069004fef9dc41b7c5dbcaa5fffe"
       }
+    },
+    {
+      "identity" : "submissionmodulgame",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/jovanesjovanotti25/SubmissionModulGame",
+      "state" : {
+        "branch" : "main",
+        "revision" : "9721a676545881a6869216470a78bbcf99c72478"
+      }
     }
   ],
   "version" : 2

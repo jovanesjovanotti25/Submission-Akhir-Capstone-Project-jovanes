@@ -18,7 +18,6 @@ let package = Package(
         .package(url: "https://github.com/Alamofire/Alamofire.git", .upToNextMajor(from: "5.2.0")),
         .package(url: "https://github.com/ReactiveX/RxSwift.git", from: "6.0.0"),
         .package(url: "https://github.com/onevcat/Kingfisher.git", from: "5.15.8"),
-        .package(path: "../Game"),
         .package(path: "../FavoriteGame"),
     ],
     targets: [
@@ -26,7 +25,7 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "DetailGame",
-            dependencies: ["Kingfisher","RxSwift","Alamofire","Game","FavoriteGame"]),
+            dependencies: ["Kingfisher","RxSwift","Alamofire","FavoriteGame"]),
         .testTarget(
             name: "DetailGameTests",
             dependencies: ["DetailGame"]),

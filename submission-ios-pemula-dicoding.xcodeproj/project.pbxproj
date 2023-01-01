@@ -13,7 +13,6 @@
 		E00ED2FC295B92DB00034C96 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E00ED2FB295B92DB00034C96 /* RxSwift */; };
 		E00ED2FF295B92F200034C96 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = E00ED2FE295B92F200034C96 /* Alamofire */; };
 		E00ED302295B930300034C96 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = E00ED301295B930300034C96 /* Kingfisher */; };
-		E00ED30A295B93EF00034C96 /* Game in Frameworks */ = {isa = PBXBuildFile; productRef = E00ED309295B93EF00034C96 /* Game */; };
 		E00ED30D295B943E00034C96 /* DetailGame in Frameworks */ = {isa = PBXBuildFile; productRef = E00ED30C295B943E00034C96 /* DetailGame */; };
 		E00ED310295B945900034C96 /* FavoriteGame in Frameworks */ = {isa = PBXBuildFile; productRef = E00ED30F295B945900034C96 /* FavoriteGame */; };
 		E010057128F3FBBE0087B0D0 /* ListFavoriteGamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E010056F28F3FBBE0087B0D0 /* ListFavoriteGamesViewController.swift */; };
@@ -28,6 +27,7 @@
 		E03EBAA628DD2BBD0020A488 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03EBAA428DD2BBD0020A488 /* LoadingViewController.swift */; };
 		E03EBAA928DD2BBD0020A488 /* LoadingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E03EBAA528DD2BBD0020A488 /* LoadingViewController.xib */; };
 		E04A9BD2295BA7C400D772C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04A9BD1295BA7C400D772C8 /* AppDelegate.swift */; };
+		E04DC64029616B76005B5E8E /* Game in Frameworks */ = {isa = PBXBuildFile; productRef = E04DC63F29616B76005B5E8E /* Game */; };
 		E0AC84E0294F79A0002825B7 /* Injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AC84DF294F79A0002825B7 /* Injection.swift */; };
 		E0BC396A28EF24C30096287B /* DateTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BC396928EF24C30096287B /* DateTime.swift */; };
 		E0BC397428EF33B10096287B /* DetailGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BC397228EF33B10096287B /* DetailGameViewController.swift */; };
@@ -69,7 +69,6 @@
 		AA85830982DD759149F6F532 /* Pods-submission-ios-pemula-dicoding.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-submission-ios-pemula-dicoding.release.xcconfig"; path = "Target Support Files/Pods-submission-ios-pemula-dicoding/Pods-submission-ios-pemula-dicoding.release.xcconfig"; sourceTree = "<group>"; };
 		B5427F84FA2C1EFAFB34B158 /* Pods-submission-ios-pemula-dicoding.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-submission-ios-pemula-dicoding.debug.xcconfig"; path = "Target Support Files/Pods-submission-ios-pemula-dicoding/Pods-submission-ios-pemula-dicoding.debug.xcconfig"; sourceTree = "<group>"; };
 		B8373D06FBE65EF4E3EE3D1D /* Pods_submissionIosPemulaDicodingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_submissionIosPemulaDicodingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E00ED308295B93E400034C96 /* Game */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Game; sourceTree = "<group>"; };
 		E00ED30B295B93FC00034C96 /* DetailGame */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = DetailGame; sourceTree = "<group>"; };
 		E00ED30E295B944D00034C96 /* FavoriteGame */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = FavoriteGame; sourceTree = "<group>"; };
 		E010056F28F3FBBE0087B0D0 /* ListFavoriteGamesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListFavoriteGamesViewController.swift; sourceTree = "<group>"; };
@@ -124,13 +123,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E00ED30A295B93EF00034C96 /* Game in Frameworks */,
 				E00ED2FC295B92DB00034C96 /* RxSwift in Frameworks */,
 				E00ED2FF295B92F200034C96 /* Alamofire in Frameworks */,
 				E00ED2FA295B92DB00034C96 /* RxCocoa in Frameworks */,
 				0741E90C6D5D6FE079D32C57 /* Pods_submission_ios_pemula_dicoding.framework in Frameworks */,
 				E00ED302295B930300034C96 /* Kingfisher in Frameworks */,
 				E00ED310295B945900034C96 /* FavoriteGame in Frameworks */,
+				E04DC64029616B76005B5E8E /* Game in Frameworks */,
 				E00ED30D295B943E00034C96 /* DetailGame in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -346,7 +345,6 @@
 		E0F3CDDF28DB373C00325A90 = {
 			isa = PBXGroup;
 			children = (
-				E00ED308295B93E400034C96 /* Game */,
 				E00ED30B295B93FC00034C96 /* DetailGame */,
 				E00ED30E295B944D00034C96 /* FavoriteGame */,
 				E0C52589295AC59E0005AE7F /* .travis.yml */,
@@ -427,9 +425,9 @@
 				E00ED2FB295B92DB00034C96 /* RxSwift */,
 				E00ED2FE295B92F200034C96 /* Alamofire */,
 				E00ED301295B930300034C96 /* Kingfisher */,
-				E00ED309295B93EF00034C96 /* Game */,
 				E00ED30C295B943E00034C96 /* DetailGame */,
 				E00ED30F295B945900034C96 /* FavoriteGame */,
+				E04DC63F29616B76005B5E8E /* Game */,
 			);
 			productName = "submission-ios-pemula-dicoding";
 			productReference = E0F3CDE828DB373C00325A90 /* submission-ios-pemula-dicoding.app */;
@@ -467,6 +465,7 @@
 				E00ED2F8295B92DB00034C96 /* XCRemoteSwiftPackageReference "RxSwift" */,
 				E00ED2FD295B92F200034C96 /* XCRemoteSwiftPackageReference "Alamofire" */,
 				E00ED300295B930300034C96 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				E04DC63E29616B76005B5E8E /* XCRemoteSwiftPackageReference "SubmissionModulGame" */,
 			);
 			productRefGroup = E0F3CDE928DB373C00325A90 /* Products */;
 			projectDirPath = "";
@@ -902,6 +901,14 @@
 				kind = branch;
 			};
 		};
+		E04DC63E29616B76005B5E8E /* XCRemoteSwiftPackageReference "SubmissionModulGame" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jovanesjovanotti25/SubmissionModulGame";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -925,10 +932,6 @@
 			package = E00ED300295B930300034C96 /* XCRemoteSwiftPackageReference "Kingfisher" */;
 			productName = Kingfisher;
 		};
-		E00ED309295B93EF00034C96 /* Game */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = Game;
-		};
 		E00ED30C295B943E00034C96 /* DetailGame */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = DetailGame;
@@ -936,6 +939,11 @@
 		E00ED30F295B945900034C96 /* FavoriteGame */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = FavoriteGame;
+		};
+		E04DC63F29616B76005B5E8E /* Game */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E04DC63E29616B76005B5E8E /* XCRemoteSwiftPackageReference "SubmissionModulGame" */;
+			productName = Game;
 		};
 /* End XCSwiftPackageProductDependency section */
 
